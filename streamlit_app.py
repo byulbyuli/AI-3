@@ -12,7 +12,7 @@ st.title("주택 가격 예측 서비스!")
 # GitHub Raw 파일 URL과 모델 유형
 GITHUB_RAW_URL = "https://github.com/byulbyuli/AI-3/raw/refs/heads/main/random_forest_model.pkl"
 MODEL_TYPE = "scikit-learn Random Forest"  # "fastai", "scikit-learn Random Forest", or "XGBoost"
-CSV_FILE_URL = ""
+CSV_FILE_URL = "https://github.com/byulbyuli/AI-3/raw/refs/heads/main/%EC%88%98%ED%95%99%20%ED%95%99%EC%97%85%20%EC%8B%A4%ED%83%9C%20%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0.csv"
 
 # GitHub에서 파일 다운로드 및 로드
 def download_model(url, output_path="model.pkl"):
