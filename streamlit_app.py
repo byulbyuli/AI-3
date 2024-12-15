@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np  # numpy를 import해야 함
 
 # Streamlit 제목
-st.title("주택 가격 예측 서비스!")
+st.title("두근두근 수학 문제집과 내 성적의 궁합 보기")
 
 # GitHub Raw 파일 URL과 모델 유형
 GITHUB_RAW_URL = "https://github.com/byulbyuli/AI-3/raw/refs/heads/main/random_forest_model.pkl"
